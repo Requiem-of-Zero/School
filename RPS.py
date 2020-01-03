@@ -33,31 +33,31 @@ while True:
 
     if user_choice == 'r':
         if computer_choice == 'r':
-            print('FUCK YOU GO AGAIN')
+            print('GO AGAIN')
         elif computer_choice == 'p':
-            print('HAHAH DUMBASS')
+            print('HAHAH')
             comp_wins += 1
         elif computer_choice == 's':
-            print('GOD DAMN IT FUCK YOU')
+            print('DAMN')
             user_wins += 1
     elif user_choice == 'p':
         if computer_choice == 'r':
-            print('FUCK YOU')
+            print('NO')
             user_wins += 1
         elif computer_choice == 'p':
-            print('FUCK YOU GO AGAIN')
+            print('NO')
         elif computer_choice == 's':
-            print('HAHAHA IDIOTA')
+            print(':(')
             comp_wins += 1
     elif user_choice == 's':
         if computer_choice == 'r':
             print("HAHAHA YOU MORON")
             comp_wins += 1
         elif computer_choice == 'p':
-            print("YOU GOT LUCKY AS FUCK")
+            print("LUCKY")
             user_wins += 1
         elif computer_choice == 's':
-            print('GOD DAMN IT GO AGAIN')
+            print('GO AGAIN')
 
     print('')
     print('User Wins: ' + str(user_wins))
