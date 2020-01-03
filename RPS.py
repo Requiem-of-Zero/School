@@ -4,7 +4,7 @@ comp_wins = 0
 user_wins = 0
 
 def choose_Option():
-    user_choice = input('CHOOSE ROCK PAPER OR SCISSORS MOTHERFUCKER >')
+    user_choice = input('CHOOSE ROCK PAPER OR SCISSORS >')
     if user_choice in ["Rock", 'rock', 'r', 'R']:
         user_choice = 'r'
     elif user_choice in ["Paper", 'paper', 'p', 'P']:
@@ -51,7 +51,7 @@ while True:
             comp_wins += 1
     elif user_choice == 's':
         if computer_choice == 'r':
-            print("HAHAHA YOU MORON")
+            print("HAHAHA")
             comp_wins += 1
         elif computer_choice == 'p':
             print("LUCKY")
