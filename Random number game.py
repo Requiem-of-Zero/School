@@ -24,7 +24,7 @@ def main():
         if(restart == 'Yes'):
             main()
         else:
-            print('ok fk you too')
+            print('ok')
     except:
         print("Sorry I don't understand")
         main()
