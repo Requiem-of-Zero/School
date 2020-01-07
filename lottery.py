@@ -17,6 +17,6 @@ if user_input in ["Yes", "YES", "yes", "y", "Y"]:
     print("")
 elif user_input in ["No", "no", "NO", "n", "N"]:
     print("")
-    print("Fuck you too")
+    print("Ok fine")
 else:
-    print("You straight dumb that wasn't even a selection")
+    print("You straight weird that wasn't even a selection")
